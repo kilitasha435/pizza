@@ -1,0 +1,29 @@
+.pizza{
+    text-align: center;
+}
+.head{
+    background-image: url(../img/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list{
+    list-style-type: none;
+    margin: auto;
+    padding: 0%;
+    overflow: hidden;
+    background-color: aqua;
+}
+li{
+    float: left;
+    border-radius: 25%;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 25%;
+}
+li a:hover{
+    background-color: tomato;
+}
